@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    height: 100vh;
+    overflow-x: hidden;
+  }
+
+  section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 2rem;
+  }
+
+  .wrapper {
+    position: relative;
+  }
+
+  .container {
+    display: flex;
+    width: 300vw;
+  }
+
+  .content {
+    margin: 70px;
+    font-size: 2rem;
+  }
